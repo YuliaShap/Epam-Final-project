@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Candidates</title>
+
+
+    <button><a href="index.html">Home</a></button>
+    <button><a href="candidates.html">Candidates</a></button>
+    <button><a href="vacancies.html">Vacancies</a></button>
+    <button><a href="employees.html">Employees</a></button>
+
+
+    <h1 style="color:DodgerBlue;">List of candidates</h1>
+
+    <style>
+table, th, td {
+  border: 1px solid black;
+}
+
+    </style>
+
+<form style="margin: 25px 25px 25px 0px" action="add_new_cand.html">
+    <input type="submit" value="Add new candidate" />
+</form>
+
+    <table style="width:70%">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Contacting info</th>
+            <th>CV</th>
+            <th>Vacancy</th>
+            <th>Level</th>
+            <th>Salary</th>
+            <th>Stage</th>
+            <th>Action</th>
+
+        </tr>
+        <tr>
+            <td>Oleg</td>
+            <td>Ivanchenko</td>
+            <td>0998765432, oleg@gmail.com</td>
+            <td><a href="https://google.com">Link</a></td>
+            <td>PHP</td>
+            <td>Junior</td>
+            <td>600</td>
+            <td>interview</td>
+            <td>
+                <button><a href="edit_candidate.html">Edit</a></button>
+                <button type="button" onclick="alert('Do you want to remove the candidate?')">Remove</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Ivan</td>
+            <td>Rudenko</td>
+            <td>0973654342, ivan@gmail.com</td>
+            <td><a href="https://google.com">Link</a></td>
+            <td>JS</td>
+            <td>Middle</td>
+            <td>1100</td>
+            <td>CV pre-screen</td>
+            <td>
+                <button><a href="edit_candidate.html">Edit</a></button>
+                <button type="button" onclick="alert('Do you want to remove the candidate?')">Remove</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Alina</td>
+            <td>Vilkova</td>
+            <td>0634975623, alina@gmail.com</td>
+            <td><a href="https://google.com">Link</a></td>
+            <td>Web-designer</td>
+            <td>Junior</td>
+            <td>500</td>
+            <td>Portfolio pre-screen</td>
+            <td>
+                <button><a href="edit_candidate.html">Edit</a></button>
+                <button type="button" onclick="alert('Do you want to remove the candidate?')">Remove</button>
+            </td>
+        </tr>
+        <tr>
+            <td>Mariia</td>
+            <td>Didyk</td>
+            <td>0997815034, mariia@gmail.com</td>
+            <td><a href="https://google.com">Link</a></td>
+            <td>QA</td>
+            <td>Senior</td>
+            <td>1700</td>
+            <td>CV pre-screen</td>
+            <td>
+                <button><a href="edit_candidate.html">Edit</a></button>
+                <button type="button" onclick="alert('Do you want to remove the candidate?')">Remove</button>
+            </td>
+        </tr>
+    </table>
+
+</head>
+<body>
+
+
